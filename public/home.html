@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Resultados NBA</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js" defer></script>
+</head>
+
+<body>
+  <div class="container" >
+  <img id="logo" src="assets/Logo-NBA-Free-PNG.png"/>
+</div>
+  <h1>RESULTADOS DE LA NBA</h1>
+
+  <form id="search">
+    Buscá un partido:
+    <div id="partido">
+     <input type="text" id="rival1" /><p> VS </p><input type="text" id="rival2"/>
+     <input type="date" id="fecha"/>
+    </div>
+    <input type="submit" value="Buscar!">
+  </form>
+
+  <hr />
+
+  <div id="results" class="hidden">
+    El resultado de <strong id="partido"></strong> fue:
+    <blockquote id="resultado"></blockquote>
+    <hr />
+    <form id="set">
+      <h2>
+        ¿El resultado está mal? Poné el correcto:
+      </h2>
+      Partido: <input id="set-rival1" type="text" /><p> VS </p>
+      <input id="set-rival2" type="text"/>
+      <input id="set-fecha" type="date"/>
+      <p>
+        Resultado:
+      </p>
+      <textarea id="set-resultado"></textarea>
+      <input type="submit" value="Setear">
+      <p id="status"></p>
+    </form>
+  </div>
+
+  <form action="/logout" method="POST">
+    <input type="submit" value="Logout">
+  </form>
+</body>
+
+</html>

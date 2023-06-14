@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="date"],
+  input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #resultados {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  .partido {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .equipo-local {
+    font-weight: bold;
+  }
+
+  .vs {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  .equipo-visitante {
+    font-weight: bold;
+  }
+
+  .mensaje {
+    color: #999;
+    text-align: center;
+  }
+
+  .error {
+    color: #ff0000;
+    text-align: center;
+  }
+
+  #logo{
+    position: relative;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
